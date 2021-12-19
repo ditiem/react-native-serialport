@@ -64,4 +64,6 @@ public class Definitions {
         return new String(hexChars);
     }
 
+
+    public static final String EXTRA_DEVICE_NAME = "DEVICE NAME" ;
 }

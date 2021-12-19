@@ -4,7 +4,7 @@ export interface IDevice {
   productId: number;
 }
 
-export type Devices = Array<IDevice> | null;
+export type Devices = Array<IDevice> ;
 
 export interface IOnReadData {
   payload: string | Array<number>
